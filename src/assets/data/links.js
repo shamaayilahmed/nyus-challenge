@@ -1,0 +1,1 @@
+export const links = ["Add User", "Notifications", "Performance", "Topics", "Quizzez", "Hangman", "Aggregate News", " Upload Memes", "Review Memes", "Write Summary", "Review News", "All News", "Polls", "Logout"];

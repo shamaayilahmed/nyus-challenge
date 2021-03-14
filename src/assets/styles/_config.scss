@@ -1,0 +1,33 @@
+$navbar: #343434;
+$navbar-font: #a6a6a6;
+$sidebar: #232323;
+$sidebar-font: #a2a2a2;
+$content: #121212;
+
+$content-extralight: #232323;
+$content-semilight: #323232;
+$content-light: #e3e3e3da;
+$content-bold: rgba(255, 255, 255, 0.767);
+$timeline-blue: #3c77bd;
+$timeline-green: #4c9a4e;
+$timeline-red: #a03a36;
+$timeline-header: #e5e5e5;
+$timeline-para: #2f2f2f;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@mixin flexCenter($direction) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
+
+@mixin transition-ease {
+  transition: all 0.25s ease;
+}

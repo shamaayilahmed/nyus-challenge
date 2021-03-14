@@ -1,0 +1,45 @@
+@import "config";
+.contents {
+  background-color: $content;
+  position: absolute;
+  left: 23%;
+  margin: 1rem;
+  display: grid;
+  overflow-y: visible;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  .content {
+    padding: 1rem;
+    border-radius: 14px;
+    margin: 0.5rem;
+    background-color: $navbar;
+
+    h5 {
+      font-weight: 200;
+      color: $content-light;
+    }
+    h3 {
+      font-weight: 500;
+      color: $content-light;
+    }
+    .data {
+      padding-top: 1.7rem;
+      @include flexCenter(row);
+      justify-content: space-around !important;
+      .odd,
+      .even {
+        h1 {
+          color: $content-bold;
+        }
+        h4 {
+          font-weight: 400;
+          color: $content-light;
+        }
+        p {
+          font-weight: 200;
+          color: $content-light;
+        }
+      }
+    }
+  }
+}
